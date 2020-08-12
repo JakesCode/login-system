@@ -240,10 +240,4 @@ class App extends React.Component {
     }
 }
 
-const logins = [
-    {
-        username: "ookiiani",
-        password: "pass123"
-    }
-]
-ReactDOM.render(<App logins={logins}/>, document.getElementById('root'));
+ReactDOM.render(<App/>, document.getElementById('root'));
